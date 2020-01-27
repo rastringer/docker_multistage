@@ -82,15 +82,19 @@ This command will list a reel of information in json. Here are the pertinent fro
 
 
 Single-stage:
+```
         "Architecture": "amd64",
         "Os": "linux",
         "Size": 366716192,
         "VirtualSize": 366716192,
+```
 
 Multi-stage:
+```
         "Architecture": "amd64",
         "Os": "linux",
         "Size": 13041939,
         "VirtualSize": 13041939,
+```
         
 The multi-stage container, at 13041939 bytes, is 96% smaller than the single-stage.
